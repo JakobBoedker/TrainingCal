@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Tasker - Manage Stuff</title>
+
+        <link rel="stylesheet" type="text/css" href="https://madstk1.github.io/agility-design/css/agility-design.min.css">
+        <link rel="stylesheet" type="text/css" href="https://madstk1.github.io/agility-design/css/skins/material.css">
+        <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+        <script src="https://madstk1.github.io/agility-design/js/agility-design.js"></script>
+        <script src="../js/register.js"></script>
+	</head>
+	<body style="overflow-y: hidden">
+        <div class="container-fullscreen background-blue container-center">
+            <div class="panel">
+                <h3 class="display3 panel-header colors-bright-black text-center">
+                    Register
+                </h3>
+                <div class="container login-container">
+                    <!-- FUCKING LAV DET HER JAKOB -->
+                    <form action="/users/register" method="POST" id="register-form">
+                        <div class="grid grid-small grid-align-center">
+                            <div class="col-12">
+                                <div class="input-group mega">
+                                    <input required name="username" class="text-center" type="text" placeholder="Username">
+                                </div>
+                                <div class="input-group mega">
+                                    <input required name="email" class="text-center" type="email" placeholder="Email" pattern="*">
+                                </div>
+                                <div class="input-group mega">
+                                    <input required name="password" class="text-center" type="password" placeholder="Password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login-buttons">
+                            <div class="center termsofconditions">
+                                <input required type="checkbox" name="toc">
+                                <p>
+                                    Accept <a href="#">Terms of Conditions</a> and<br> <a href="#">EULA of Privacy Conditions</a>.
+                                </p>
+                            </div>
+                            <input type="submit" class="btn btn-blue center login-btn register" value="Register">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

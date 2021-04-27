@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Tasker - Manage Stuff</title>
+
+		<link rel="stylesheet" type="text/css" href="https://madstk1.github.io/agility-design/css/agility-design.min.css">
+        <link rel="stylesheet" type="text/css" href="https://madstk1.github.io/agility-design/css/skins/material.css">
+        <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://madstk1.github.io/agility-design/js/agility-design.js"></script>
+	</head>
+	<body style="overflow-y: hidden">
+        <div class="container-fullscreen background-blue container-center">
+            <div class="panel">
+                <h3 class="display3 panel-header colors-bright-black text-center">
+                    Login
+                </h3>
+                <div class="container login-container">
+                    <form action="/users/login" method="POST">
+                        <div class="grid grid-small grid-align-center">
+                            <div class="col-12">
+                                <div class="input-group mega">
+                                    <input required class="text-center" type="text" placeholder="Username">
+                                </div>
+                                <div class="input-group mega">
+                                    <input required class="text-center" type="password" placeholder="Password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login-buttons">
+                            <input type="submit" class="btn btn-blue center login-btn" value="Login">
+                            <div class="strikethrough">
+                                <div class=""></div>
+                                <p class="">
+                                    or
+                                </p>
+                                <div class=""></div>
+                            </div>
+                            <a href="register.html">
+                                <button class="btn btn-blue center login-btn">
+                                    Register
+                                </button>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

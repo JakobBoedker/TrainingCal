@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Tasker - Manage Stuff</title>
+
+        <link rel="stylesheet" type="text/css" href="https://madstk1.github.io/agility-design/css/agility-design.min.css">
+        <link rel="stylesheet" type="text/css" href="https://madstk1.github.io/agility-design/css/skins/material.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://madstk1.github.io/agility-design/js/agility-design.js"></script>
+	</head>
+	<body>
+        <div class="communication-content-large text-center">
+            <div class="communication-block communication-block-center background-blue">
+                <div class="container">
+                    <h1 class="color-white heading1 center">TrainingCal.</h1>
+                    <h6 class="color-white text-thin">Something about TrainingCal here.</h6>
+                    <h6 class="color-white text-thin">Something else? idk</h6>
+                </div>
+            </div>
+            <div class="communication-block communication-block-center">
+                <div class="container">
+                    <h1 class="heading1 center color-blue">Start Now</h1>
+                    <div class="panel panel-clear">
+                        <a href="pages/login.html">
+                            <button class="btn btn-large btn-outline-blue btn-rounded">
+                                Login
+                            </button>
+                        </a>
+                        <p class="login-or-paragraph">or</p>
+                        <a href="pages/register.html">
+                            <button class="btn btn-large btn-outline-blue btn-rounded">
+                                Register
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

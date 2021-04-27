@@ -1,0 +1,84 @@
+h3.panel-header {
+    padding-top: 1em;
+}
+
+/* Login */
+
+.input-group {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    flex-direction: column-reverse;
+}
+
+.input-group input {
+    border: 1px solid var(--colors-white);
+    transition: border 0.15s;
+}
+
+.login-buttons {
+    margin-top: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.login-container .btn.login-btn {
+    width: 100%;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.login-container {
+    margin-top: 0.5em;
+}
+
+div.strikethrough {
+    display: flex;
+    transform: translateY(-1em);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.strikethrough div {
+    width: 40%;
+    color: var(--colors-bright-black);
+    border-bottom: 1px solid currentColor;
+}
+
+div.strikethrough p {
+    color: var(--colors-bright-black);
+    transform: translateY(1.5em);
+    width: 20%;
+    text-align: center;
+}
+
+p.login-or-paragraph {
+    margin: 1rem 1rem;
+}
+
+/* Register */
+
+.termsofconditions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    color: var(--colors-bright-black);
+    margin-bottom: 0.5rem;
+
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.termsofconditions p {
+    font-size: 12px;
+    margin-left: 0.5rem;
+    text-align: center;
+}
+
+label[id *= "-error"] {
+    color: var(--colors-red);
+    font-size: 12px;
+    width: 140px;
+}
